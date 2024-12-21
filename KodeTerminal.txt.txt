@@ -1,0 +1,38 @@
+// memperbesar dan memperkecil font 
+command :  ctrl + dan ctrl -
+// untuk mengetahui kita ada directory mana
+command : pwd
+// untuk mengecek file apa aja di directory kita
+command : ls
+// untuk mengecek file tersembunyi di directory kita
+command : ls -a
+// melihat detail file
+command : ls -la
+// membuat folder
+command : mkdir namafolder
+// menghapus folder
+command : rmdir namaFolder
+//menghapus folder yang berspasi contoh 
+contoh : halo kamu
+cara menghapusnya : rmdir halo/ kamu
+// membuat file
+command : touch namafile.ektensinya
+contoh : touch halo.txt
+// mengisi file dengan text
+command : echo ini adalah text >> halo.txt
+// lihat isi file tertentu
+command : cat halo.txt
+// mencari kata di dalam file
+command : grep (teks nya) halo.txt
+// menulis kata di terminal
+command : nano teknya.py
+// mereboot
+command : sudo reboot
+// copy
+command : cp
+// menhapus file
+command : rm
+//memindahkan file
+command : mv
+//cek koneksi internet
+command : ping
