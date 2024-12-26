@@ -1,1 +1,1 @@
-message
+eJS-core-mo
