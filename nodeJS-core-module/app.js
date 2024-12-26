@@ -43,7 +43,7 @@ rl.question("What is your name? :", (name) => {
     const contacks = JSON.parse(file);
     contacks.push(contack);
     fs.writeFileSync("nodeJS-core-module/contacks.json", JSON.stringify(contacks, null, 1));
-    console.log(`Terimakasih sudah mengimpputkan data 👍`);
+    console.log(`Terimakasih sudah mengimpputkan data`);
     rl.close();
     // rl.close();
   });
