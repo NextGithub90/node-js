@@ -1,0 +1,16 @@
+{
+  "name": "belajar-npm",
+  "version": "1.0.0",
+  "description": "belajr nodejs npm",
+  "main": "npm.js",
+  "scripts": {
+    "start": "node npm.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ls"
+  },
+  "author": "Hazmi",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.12.0"
+  }
+}
