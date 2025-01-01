@@ -58,18 +58,3 @@ const WriteQuestion = (Question) => {
     });
   });
 };
-
-const result = async () => {
-  const nama = await WriteQuestion("siapa nama anda : ");
-  const grade = await WriteQuestion("masukkan  grade anda :");
-  const contack = { nama, grade };
-  console.log(contack);
-  const file = fs.readFileSync("contacks.json", "utf-8");
-  const contacks = JSON.parse(file);
-  contacks.push(contack);
-  // console.log(contacks);
-  fs.writeFileSync("contacks.json", JSON.stringify(contacks, null, 1));
-  console.log(`Terimakasih sudah mengimpputkan data 👍`);
-  rl.close();
-};
-result();
