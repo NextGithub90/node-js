@@ -1,0 +1,1 @@
+contacks = contacks.filter((contack) => contack.nama !== nama);

@@ -1,22 +1,42 @@
 [
  {
   "nama": "azzam",
-  "grade": "h"
+  "umur": 17,
+  "email": "halo@gmail.com"
  },
  {
-  "nama": "hana",
-  "grade": "u"
+  "nama": "azam",
+  "umur": 17,
+  "email": "halo@gmail.com"
+ },
+ {
+  "nama": "hyper",
+  "umur": 19,
+  "email": "aldidsd@gmail.com"
+ },
+ {
+  "nama": "hjyper",
+  "umur": 19,
+  "email": "aldidsd@gmail.com"
+ },
+ {
+  "nama": "hjsyper",
+  "umur": 19,
+  "email": "aldidsd@gmail.com"
+ },
+ {
+  "nama": "hjbsyper",
+  "umur": 19,
+  "email": "aldidsd@gmail.com"
  },
  {
   "nama": "hazmi",
-  "grade": "u"
+  "umur": "20",
+  "email": "alda@gmail.com"
  },
  {
-  "nama": "hana",
-  "grade": "I"
- },
- {
-  "nama": "hazmi",
-  "grade": "11"
+  "nama": "",
+  "umur": "",
+  "email": "a@gmail.com"
  }
 ]

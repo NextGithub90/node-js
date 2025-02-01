@@ -1,17 +1,36 @@
+const { WriteQuestion, saveContack } = require("./contacks");
 const yargs = require("yargs");
-yargs.command(
-  "add",
-  "menambahkan kontak baru",
-  () => {},
-  (argv) => {
-    console.log(argv.nama);
-  }
-);
+yargs.command({
+  command: "add",
+  describe: "menambahkan kontak baru",
+  builder: {
+    nama: {
+      describe: "nama user",
+      demandOption: true,
+      type: "string",
+    },
+    umur: {
+      describe: "umur user",
+      demandOption: true,
+      type: "number",
+    },
+    email: {
+      describe: "email user",
+      demandOption: true,
+      type: "string",
+    },
+  },
+  handler: function (argv) {
+    saveContack(argv.nama, argv.umur, argv.email);
+  },
+});
 yargs.parse();
-// const { WriteQuestion, saveContack } = require("./contacks");
-// const result = async () => {
-//   const nama = await WriteQuestion("siapa nama anda : ");
-//   const grade = await WriteQuestion("masukkan  grade anda :");
-//   saveContack(nama, grade);
-// };
-// result();
+
+const result = async () => {
+  const nama = await WriteQuestion("siapa nama anda : ");
+  const umur = await WriteQuestion("masukkan  umur anda :");
+  const email = await WriteQuestion("masukkan  email anda :");
+
+  saveContack(nama, umur, email);
+};
+result();
